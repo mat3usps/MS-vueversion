@@ -2,7 +2,7 @@
     <v-app>
         <AppBar />
 
-        <v-main>
+        <v-main style="display: flex; align-items: center;">
             <router-view />
         </v-main>
     </v-app>
@@ -16,8 +16,6 @@ export default {
     components: {
         AppBar,
     },
-    data: () => ({
-        //
-    }),
+    data() {},
 };
 </script>
